@@ -23,4 +23,12 @@ public class SolvedExercises {
 
         JOptionPane.showMessageDialog(null,"The area of the circle is: " + area);
     }
+
+    public void ExerciseFour() {
+        final double VAT = 0.21;
+        var price = Double.parseDouble(JOptionPane.showInputDialog("Enter the price of the product: ")); 
+        var priceWithVAT = price + (price * VAT);
+    
+        JOptionPane.showMessageDialog(null,"The price with VAT is: " + priceWithVAT);
+    }
 }

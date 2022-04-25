@@ -10,6 +10,11 @@ public class Main {
         // solvedExercises.ExerciseOneAndTwo();
 
         // Exercise Three
-        solvedExercises.ExerciseThree();
+        // solvedExercises.ExerciseThree();
+
+        // Exercise Four
+        solvedExercises.ExerciseFour();
+
+
     }
 }

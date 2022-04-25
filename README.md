@@ -13,3 +13,7 @@ To the previous exercise, add console entry of two values and indicate if they a
 ## `Exercise three`
 
 Make an app that calculates the area of a circle. the radius of the circle will be requested by keyboard.
+
+## `Exercise Four`
+
+Read a number by keyboard that asks for the price of a product (it can have decimals) and calculate the final price with VAT. The VAT will be a constant that will be 21%.

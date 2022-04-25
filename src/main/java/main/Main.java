@@ -13,7 +13,10 @@ public class Main {
         // solvedExercises.ExerciseThree();
 
         // Exercise Four
-        solvedExercises.ExerciseFour();
+        // solvedExercises.ExerciseFour();
+
+        // Exercise Five
+        solvedExercises.ExerciseFive();
 
 
     }

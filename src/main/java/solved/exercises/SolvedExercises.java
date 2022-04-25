@@ -31,4 +31,33 @@ public class SolvedExercises {
     
         JOptionPane.showMessageDialog(null,"The price with VAT is: " + priceWithVAT);
     }
+
+    public void ExerciseFive() {
+        var num = 1;
+        var pairs = new int[50];
+        var counterP = 0;
+        var odd = new int[50];
+        var counterO = 0;
+
+        while (num <= 100) {
+            if (num % 2 == 0) {
+                pairs[counterP] = num;
+                counterP++;
+            } else {
+                odd[counterO] = num;
+                counterO++;
+            }
+            num++;
+        }
+
+        System.out.println("Numbers pairs: ");
+        for (int i = 0; i < pairs.length; i++) {
+            System.out.println(pairs[i]);
+        }
+
+        System.out.println("Odd numbers: ");
+        for (int i = 0; i < odd.length; i++) {
+            System.out.println(odd[i]);
+        }
+    }
 }

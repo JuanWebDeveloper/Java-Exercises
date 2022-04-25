@@ -17,3 +17,7 @@ Make an app that calculates the area of a circle. the radius of the circle will 
 ## `Exercise Four`
 
 Read a number by keyboard that asks for the price of a product (it can have decimals) and calculate the final price with VAT. The VAT will be a constant that will be 21%.
+
+## `Exercise Five`
+
+Shows odd and even numbers from 1 to 100 (both inclusive). Use a while loop.

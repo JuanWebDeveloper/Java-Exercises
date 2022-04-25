@@ -60,4 +60,31 @@ public class SolvedExercises {
             System.out.println(odd[i]);
         }
     }
+
+    public void ExerciseSix() {
+        var pairs = new int[50];
+        var counterP = 0;
+        var odd = new int[50];
+        var counterO = 0;
+
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                pairs[counterP] = i;
+                counterP++;
+            } else {
+                odd[counterO] = i;
+                counterO++;
+            }
+        }
+
+        System.out.println("Numbers pairs: ");
+        for (int i = 0; i < pairs.length; i++) {
+            System.out.println(pairs[i]);
+        }
+
+        System.out.println("Odd numbers: ");
+        for (int i = 0; i < odd.length; i++) {
+            System.out.println(odd[i]);
+        }
+    }
 }

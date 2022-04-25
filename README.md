@@ -21,3 +21,7 @@ Read a number by keyboard that asks for the price of a product (it can have deci
 ## `Exercise Five`
 
 Shows odd and even numbers from 1 to 100 (both inclusive). Use a while loop.
+
+## `Exercise Six`
+
+Perform the previous exercise using a for loop.

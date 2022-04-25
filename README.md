@@ -9,3 +9,7 @@ Declare 2 numeric variables (with the value you want), and indicate which is gre
 ## `Exercise Two`
 
 To the previous exercise, add console entry of two values and indicate if they are greater, lesser or equal.
+
+## `Exercise three`
+
+Make an app that calculates the area of a circle. the radius of the circle will be requested by keyboard.

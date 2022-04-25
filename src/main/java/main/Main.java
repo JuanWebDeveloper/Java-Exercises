@@ -7,6 +7,9 @@ public class Main {
         SolvedExercises solvedExercises = new SolvedExercises();
 
         // Exercise One and Two
-        solvedExercises.ExerciseOneAndTwo();
+        // solvedExercises.ExerciseOneAndTwo();
+
+        // Exercise Three
+        solvedExercises.ExerciseThree();
     }
 }

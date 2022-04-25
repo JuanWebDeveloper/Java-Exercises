@@ -15,4 +15,12 @@ public class SolvedExercises {
             JOptionPane.showMessageDialog(null,"The two values are the same.");
         } 
     }
+
+    public void ExerciseThree() {
+        var radius = Double.parseDouble(JOptionPane.showInputDialog("Enter the radius of the circle: "));
+        var area = Math.PI * Math.pow(radius, 2);
+        area = (double) Math.round(area * 100) / 100;
+
+        JOptionPane.showMessageDialog(null,"The area of the circle is: " + area);
+    }
 }

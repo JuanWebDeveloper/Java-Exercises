@@ -25,3 +25,7 @@ Shows odd and even numbers from 1 to 100 (both inclusive). Use a while loop.
 ## `Exercise Six`
 
 Perform the previous exercise using a for loop.
+
+## `Exercise Seven`
+
+It reads a number by keyboard and checks that this number is greater than or equal to zero, if it is not, it will request it again, then it shows that number by console.

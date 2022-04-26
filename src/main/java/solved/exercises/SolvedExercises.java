@@ -87,4 +87,14 @@ public class SolvedExercises {
             System.out.println(odd[i]);
         }
     }
+
+    public void ExerciseSeven() {
+        var num = 0;
+        
+        do {
+            num = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+        } while (num < 0);
+
+        JOptionPane.showMessageDialog(null,"The number is: " + num);
+    }
 }

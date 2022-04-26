@@ -97,4 +97,35 @@ public class SolvedExercises {
 
         JOptionPane.showMessageDialog(null,"The number is: " + num);
     }
+
+    public void ExerciseEight() {
+        var day = JOptionPane.showInputDialog("Enter a day of the week");
+
+        switch (day.toLowerCase()) {
+            case "monday":
+                JOptionPane.showMessageDialog(null, "It is a work day.");
+                break;
+            case "tuesday":
+                JOptionPane.showMessageDialog(null, "It is a work day.");
+                break;
+            case "wednesday":
+                JOptionPane.showMessageDialog(null, "It is a work day.");
+                break;
+            case "thursday":
+                JOptionPane.showMessageDialog(null, "It is a work day.");
+                break;
+            case "friday":
+                JOptionPane.showMessageDialog(null, "It is a work day.");
+                break;  
+            case "saturday":
+                JOptionPane.showMessageDialog(null, "It is not a work day.");
+                break;
+            case "sunday":
+                JOptionPane.showMessageDialog(null, "It is not a work day.");
+                break;
+            default:
+                JOptionPane.showMessageDialog(null, "This day does not exist.");
+                break;
+        }
+    }
 }

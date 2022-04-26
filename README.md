@@ -29,3 +29,7 @@ Perform the previous exercise using a for loop.
 ## `Exercise Seven`
 
 It reads a number by keyboard and checks that this number is greater than or equal to zero, if it is not, it will request it again, then it shows that number by console.
+
+## `Exercise Eight`
+
+Create a console application that asks us for a day of the week and tells us if it is a working day or not.

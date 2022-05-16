@@ -270,4 +270,51 @@ public class SolvedExercises {
                     "You must enter a number\n" + "The cause of the error is:\n" + e.getMessage());
         }
     }
+
+    public void ExerciseFifteen() {
+        var option = 0;
+
+        do {
+            System.out.println("**FILM MANAGEMENT**\n" +
+                    "1-NEW ACTOR\n" +
+                    "2-SEARCH ACTOR\n" +
+                    "3-REMOVE ACTOR\n" +
+                    "4-MODIFY ACTOR\n" +
+                    "5-SEE ALL THE ACTORS\n" +
+                    "6- SEE FILMS OF THE ACTORS\n" +
+                    "7-SEE CATEGORY OF THE FILMS OF THE ACTORS\n" +
+                    "8-EXIT");
+            option = Integer.parseInt(JOptionPane.showInputDialog("Enter an option: "));
+
+            switch (option) {
+                case 1:
+                    System.out.println("**NEW ACTOR**");
+                    break;
+                case 2:
+                    System.out.println("**SEARCH ACTOR**");
+                    break;
+                case 3:
+                    System.out.println("**REMOVE ACTOR**");
+                    break;
+                case 4:
+                    System.out.println("**MODIFY ACTOR**");
+                    break;
+                case 5:
+                    System.out.println("**SEE ALL THE ACTORS**");
+                    break;
+                case 6:
+                    System.out.println("**SEE FILMS OF THE ACTORS**");
+                    break;
+                case 7:
+                    System.out.println("**SEE CATEGORY OF THE FILMS OF THE ACTORS**");
+                    break;
+                case 8:
+                    System.out.println("**EXIT**");
+                    break;
+                default:
+                    System.out.println("**INVALID OPTION**");
+                    break;
+            }
+        } while (option != 8);
+    }
 }

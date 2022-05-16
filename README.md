@@ -57,3 +57,20 @@ Perform an algorithm that allows querying the current date and time in the forma
 ## `Exercise Fourteen`
 
 Create a program that asks for a number by keyboard and that prints on the screen the numbers from the entered number up to 1000 with jumps of 2 in 2.
+
+## `Exercise Fifteen`
+
+Make a program that displays the following menu of options
+
+**FILM MANAGEMENT**
+
+- 1-NEW ACTOR
+- 2-SEARCH ACTOR
+- 3-REMOVE ACTOR
+- 4-MODIFY ACTOR
+- 5-SEE ALL THE ACTORS
+- 6- SEE FILMS OF THE ACTORS
+- 7-SEE CATEGORY OF THE FILMS OF THE ACTORS
+- 8-EXIT
+
+The system will only exit when the number 8 is entered, while one of the five options is entered, the menu should continue to be displayed and if the user enters a number that is not in the menu, a "wrong option" message should be displayed and show the menu again.

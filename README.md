@@ -53,3 +53,7 @@ Request two words by keyboard, indicate if they are the same, if they are not th
 ## `Exercise Thirteen`
 
 Perform an algorithm that allows querying the current date and time in the format (YYYY/MM/DD) (HH:MM:SS)
+
+## `Exercise Fourteen`
+
+Create a program that asks for a number by keyboard and that prints on the screen the numbers from the entered number up to 1000 with jumps of 2 in 2.

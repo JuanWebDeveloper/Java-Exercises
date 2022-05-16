@@ -247,4 +247,27 @@ public class SolvedExercises {
 
         JOptionPane.showMessageDialog(null, "The current date and time is: " + formatter.format(LocalDateTime.now()));
     }
+
+    public void ExerciseFourteen() {
+        try {
+            var number = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
+
+            if (number > 1000 || number < 1) {
+                JOptionPane.showMessageDialog(null, "The number must be between the range of 1 to 1000.");
+            } else {
+                int i;
+                for (i = number; i <= 1000; i += 2) {
+                    System.out.println(i);
+                }
+
+                if (i % 2 != 0) {
+                    System.out.println("1000");
+                }
+
+            }
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null,
+                    "You must enter a number\n" + "The cause of the error is:\n" + e.getMessage());
+        }
+    }
 }

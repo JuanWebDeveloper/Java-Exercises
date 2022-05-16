@@ -40,6 +40,9 @@ public class Main {
         // solvedExercises.ExerciseTwelve();
 
         // Exercise Thirteen
-        solvedExercises.ExerciseThirteen();
+        // solvedExercises.ExerciseThirteen();
+
+        // Exercise Fourteen
+        solvedExercises.ExerciseFourteen();
     }
 }

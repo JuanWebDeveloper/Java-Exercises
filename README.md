@@ -45,3 +45,7 @@ Make a console application, that when entering a phrase by keyboard, eliminates 
 ## `Exercise Eleven`
 
 Carry out the construction of an algorithm that allows, according to a phrase passed through the console, to indicate the length of this phrase, additionally how many vowels it has of **"a,e,i,o,u"**.
+
+## `Exercise Twelve`
+
+Request two words by keyboard, indicate if they are the same, if they are not the same, show their differences.

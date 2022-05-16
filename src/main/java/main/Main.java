@@ -34,6 +34,9 @@ public class Main {
         // solvedExercises.ExerciseTen();
 
         // Exercise Eleven
-        solvedExercises.ExerciseEleven();
+        // solvedExercises.ExerciseEleven();
+
+        // Exercise Twelve
+        solvedExercises.ExerciseTwelve();
     }
 }

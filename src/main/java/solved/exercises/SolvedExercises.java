@@ -170,4 +170,73 @@ public class SolvedExercises {
                 "The number of o's is: " + o + "\n" +
                 "The number of u's is: " + u);
     }
+
+    public void ExerciseTwelve() {
+        var phraseOne = JOptionPane.showInputDialog("Enter the first phrase: ");
+        var phraseTwo = JOptionPane.showInputDialog("Enter the second phrase: ");
+
+        if (phraseOne.compareTo(phraseTwo) == 0) {
+            JOptionPane.showMessageDialog(null, "The phrases are equal.");
+        } else {
+            for (int i = 0; i < 2; i++) {
+                int a = 0, e = 0, I = 0, o = 0, u = 0, consonants = 0;
+
+                if (i == 0) {
+                    char characters[] = phraseOne.toLowerCase().toCharArray();
+
+                    for (int j = 0; j < characters.length; j++) {
+                        if (characters[j] == 'a') {
+                            a++;
+                        } else if (characters[j] == 'e') {
+                            e++;
+                        } else if (characters[j] == 'i') {
+                            I++;
+                        } else if (characters[j] == 'o') {
+                            o++;
+                        } else if (characters[j] == 'u') {
+                            u++;
+                        } else {
+                            consonants++;
+                        }
+                    }
+
+                    JOptionPane.showMessageDialog(null,
+                            "The first phrase has " + phraseOne.length() + " characters.\n" +
+                                    "The number of a's is: " + a + "\n" +
+                                    "The number of e's is: " + e + "\n" +
+                                    "The number of i's is: " + I + "\n" +
+                                    "The number of o's is: " + o + "\n" +
+                                    "The number of u's is: " + u + "\n" +
+                                    "The number of consonants is: " + consonants);
+                } else {
+                    char characters[] = phraseTwo.toLowerCase().toCharArray();
+
+                    for (int j = 0; j < characters.length; j++) {
+                        if (characters[j] == 'a') {
+                            a++;
+                        } else if (characters[j] == 'e') {
+                            e++;
+                        } else if (characters[j] == 'i') {
+                            I++;
+                        } else if (characters[j] == 'o') {
+                            o++;
+                        } else if (characters[j] == 'u') {
+                            u++;
+                        } else {
+                            consonants++;
+                        }
+                    }
+
+                    JOptionPane.showMessageDialog(null,
+                            "The second phrase has " + phraseTwo.length() + " characters.\n" +
+                                    "The number of a's is: " + a + "\n" +
+                                    "The number of e's is: " + e + "\n" +
+                                    "The number of i's is: " + I + "\n" +
+                                    "The number of o's is: " + o + "\n" +
+                                    "The number of u's is: " + u + "\n" +
+                                    "The number of consonants is: " + consonants);
+                }
+            }
+        }
+    }
 }

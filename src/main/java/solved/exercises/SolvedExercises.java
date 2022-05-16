@@ -8,12 +8,14 @@ public class SolvedExercises {
         var valueTwo = Integer.parseInt(JOptionPane.showInputDialog("Enter the second value: "));
 
         if (valueOne > valueTwo) {
-            JOptionPane.showMessageDialog(null,"The first value (" + valueOne + ") is greater than the second value (" + valueTwo + ").");
+            JOptionPane.showMessageDialog(null,
+                    "The first value (" + valueOne + ") is greater than the second value (" + valueTwo + ").");
         } else if (valueOne < valueTwo) {
-            JOptionPane.showMessageDialog(null,"The first value (" + valueOne + ") is less than the second value (" + valueTwo + ").");
+            JOptionPane.showMessageDialog(null,
+                    "The first value (" + valueOne + ") is less than the second value (" + valueTwo + ").");
         } else {
-            JOptionPane.showMessageDialog(null,"The two values are the same.");
-        } 
+            JOptionPane.showMessageDialog(null, "The two values are the same.");
+        }
     }
 
     public void ExerciseThree() {
@@ -21,15 +23,15 @@ public class SolvedExercises {
         var area = Math.PI * Math.pow(radius, 2);
         area = (double) Math.round(area * 100) / 100;
 
-        JOptionPane.showMessageDialog(null,"The area of the circle is: " + area);
+        JOptionPane.showMessageDialog(null, "The area of the circle is: " + area);
     }
 
     public void ExerciseFour() {
         final double VAT = 0.21;
-        var price = Double.parseDouble(JOptionPane.showInputDialog("Enter the price of the product: ")); 
+        var price = Double.parseDouble(JOptionPane.showInputDialog("Enter the price of the product: "));
         var priceWithVAT = price + (price * VAT);
-    
-        JOptionPane.showMessageDialog(null,"The price with VAT is: " + priceWithVAT);
+
+        JOptionPane.showMessageDialog(null, "The price with VAT is: " + priceWithVAT);
     }
 
     public void ExerciseFive() {
@@ -90,12 +92,12 @@ public class SolvedExercises {
 
     public void ExerciseSeven() {
         var num = 0;
-        
+
         do {
             num = Integer.parseInt(JOptionPane.showInputDialog("Enter a number: "));
         } while (num < 0);
 
-        JOptionPane.showMessageDialog(null,"The number is: " + num);
+        JOptionPane.showMessageDialog(null, "The number is: " + num);
     }
 
     public void ExerciseEight() {
@@ -116,7 +118,7 @@ public class SolvedExercises {
                 break;
             case "friday":
                 JOptionPane.showMessageDialog(null, "It is a work day.");
-                break;  
+                break;
             case "saturday":
                 JOptionPane.showMessageDialog(null, "It is not a work day.");
                 break;
@@ -127,5 +129,13 @@ public class SolvedExercises {
                 JOptionPane.showMessageDialog(null, "This day does not exist.");
                 break;
         }
+    }
+
+    public void ExerciseNine() {
+        final String PHRASE = "La sonrisa será la mejor arma contra la tristeza";
+        var additionalPhrase = JOptionPane.showInputDialog("Enter a additional phrase: ");
+        var newPhrase = PHRASE.replace("a", "e").concat(" " + additionalPhrase);
+
+        JOptionPane.showMessageDialog(null, newPhrase);
     }
 }

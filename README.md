@@ -33,3 +33,7 @@ It reads a number by keyboard and checks that this number is greater than or equ
 ## `Exercise Eight`
 
 Create a console application that asks us for a day of the week and tells us if it is a working day or not.
+
+## `Exercise Nine`
+
+From the text, "La sonrisa será la mejor arma contra la tristeza" Replace all the **a** of the previous String with an **e**, additionally concatenate to this phrase an additional one that you want to include by console and show them later together.

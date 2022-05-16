@@ -28,6 +28,9 @@ public class Main {
         // solvedExercises.ExerciseEight();
 
         // Exercise Nine
-        solvedExercises.ExerciseNine();
+        // solvedExercises.ExerciseNine();
+
+        // Exercise Ten
+        solvedExercises.ExerciseTen();
     }
 }

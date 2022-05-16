@@ -138,4 +138,9 @@ public class SolvedExercises {
 
         JOptionPane.showMessageDialog(null, newPhrase);
     }
+
+    public void ExerciseTen() {
+        var phrase = JOptionPane.showInputDialog("Enter a phrase: ");
+        JOptionPane.showMessageDialog(null, "The phrase without spaces looks like this:\n " + phrase.replace(" ", ""));
+    }
 }

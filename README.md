@@ -37,3 +37,7 @@ Create a console application that asks us for a day of the week and tells us if 
 ## `Exercise Nine`
 
 From the text, "La sonrisa será la mejor arma contra la tristeza" Replace all the **a** of the previous String with an **e**, additionally concatenate to this phrase an additional one that you want to include by console and show them later together.
+
+## `Exercise Ten`
+
+Make a console application, that when entering a phrase by keyboard, eliminates the spaces that it contains.

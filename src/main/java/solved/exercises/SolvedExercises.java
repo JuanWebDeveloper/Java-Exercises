@@ -1,6 +1,8 @@
 package solved.exercises;
 
 import javax.swing.*;
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
 
 public class SolvedExercises {
     public void ExerciseOneAndTwo() {
@@ -238,5 +240,11 @@ public class SolvedExercises {
                 }
             }
         }
+    }
+
+    public void ExerciseThirteen() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+
+        JOptionPane.showMessageDialog(null, "The current date and time is: " + formatter.format(LocalDateTime.now()));
     }
 }

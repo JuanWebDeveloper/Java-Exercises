@@ -49,3 +49,7 @@ Carry out the construction of an algorithm that allows, according to a phrase pa
 ## `Exercise Twelve`
 
 Request two words by keyboard, indicate if they are the same, if they are not the same, show their differences.
+
+## `Exercise Thirteen`
+
+Perform an algorithm that allows querying the current date and time in the format (YYYY/MM/DD) (HH:MM:SS)

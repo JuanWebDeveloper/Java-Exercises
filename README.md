@@ -41,3 +41,7 @@ From the text, "La sonrisa será la mejor arma contra la tristeza" Replace all t
 ## `Exercise Ten`
 
 Make a console application, that when entering a phrase by keyboard, eliminates the spaces that it contains.
+
+## `Exercise Eleven`
+
+Carry out the construction of an algorithm that allows, according to a phrase passed through the console, to indicate the length of this phrase, additionally how many vowels it has of **"a,e,i,o,u"**.

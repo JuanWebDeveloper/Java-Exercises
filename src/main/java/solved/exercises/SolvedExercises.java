@@ -143,4 +143,31 @@ public class SolvedExercises {
         var phrase = JOptionPane.showInputDialog("Enter a phrase: ");
         JOptionPane.showMessageDialog(null, "The phrase without spaces looks like this:\n " + phrase.replace(" ", ""));
     }
+
+    public void ExerciseEleven() {
+        int a = 0, e = 0, I = 0, o = 0, u = 0;
+        var phrase = JOptionPane.showInputDialog("Enter a phrase: ");
+        char characters[] = phrase.toLowerCase().toCharArray();
+
+        for (int i = 0; i < characters.length; i++) {
+            if (characters[i] == 'a') {
+                a++;
+            } else if (characters[i] == 'e') {
+                e++;
+            } else if (characters[i] == 'i') {
+                I++;
+            } else if (characters[i] == 'o') {
+                o++;
+            } else if (characters[i] == 'u') {
+                u++;
+            }
+        }
+
+        JOptionPane.showMessageDialog(null, "The phrase has " + phrase.length() + " characters.\n" +
+                "The number of a's is: " + a + "\n" +
+                "The number of e's is: " + e + "\n" +
+                "The number of i's is: " + I + "\n" +
+                "The number of o's is: " + o + "\n" +
+                "The number of u's is: " + u);
+    }
 }
